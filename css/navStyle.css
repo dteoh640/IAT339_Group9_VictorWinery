@@ -11,7 +11,7 @@ html{
 body{
     width:100%;
     margin:auto;
-    padding-top:1rem;
+    padding-top:1em;
 }
 
 .brand{
@@ -31,11 +31,11 @@ body{
 }
 
 .navbar ul li{
-    padding:.5rem 3.5rem;
+    padding:.5em 3.5em;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .11rem;
-    font-size: .9rem;
+    letter-spacing: .11em;
+    font-size: .9em;
 }
 
 .navbar>ul>li>a{
@@ -73,13 +73,13 @@ main{
 .typesofwines{
     flex:22%;
     background:#fffdf7;
-    margin-top:2rem;
+    margin-top:2em;
 }
 
 .typesofwines ul{
     display:block;  
     list-style-type:none;
-    padding:4rem 0;
+    padding:5em 0;
     text-align: center;
     position: fixed;
     width: 22%;
@@ -88,9 +88,9 @@ main{
 
 .typesofwines ul li{
     text-transform: uppercase;
-    letter-spacing: .1rem;
-    font-size: .77rem;
-    line-height: 3.3rem;
+    letter-spacing: .1em;
+    font-size: .77em;
+    line-height: 4em;
 }
 
 .typesofwines>ul>li>a{
@@ -112,7 +112,7 @@ main{
 
 .productlist{
     flex:78%;
-    margin-top:2rem;
+    margin-top:2em;
     position: relative;
 }
 
@@ -124,8 +124,8 @@ main{
     position: absolute;
     top:2.5%;
     left:5.5%;
-    letter-spacing: .4rem;
-    font-size: .9rem;
+    letter-spacing: .4em;
+    font-size: .9em;
     font-weight: 300;
     text-transform: uppercase;
     color: #210e03;
@@ -137,8 +137,8 @@ main{
     top:3%;
     left:5.5%;
     font-family: "Garamond", serif;
-    letter-spacing: .11rem;
-    font-size: 2.5rem;
+    letter-spacing: .11em;
+    font-size: 2.5em;
     text-transform: capitalize;
     color: #a68676;
     z-index:1;
@@ -148,8 +148,8 @@ main{
     position: absolute;
     top:10%;
     left:57%;
-    letter-spacing: .2rem;
-    font-size: .77rem;
+    letter-spacing: .2em;
+    font-size: .77em;
     font-weight: 100;
     text-transform: uppercase;
     color: #210e03;
@@ -161,8 +161,8 @@ main{
     top:11%;
     left:57%;
     font-family: "Garamond", serif;
-    letter-spacing: .11rem;
-    font-size: 3rem;
+    letter-spacing: .11em;
+    font-size: 3em;
     text-transform: capitalize;
     background: linear-gradient(to bottom, #f5dfb0 0%, #e5bf76 100%);
     -webkit-background-clip: text;
@@ -175,21 +175,21 @@ main{
     position: absolute;
     top:20%;
     left:57%;
-    letter-spacing: .1rem;
-    font-size: 1rem;
+    letter-spacing: .1em;
+    font-size: 1em;
     text-transform: capitalize;
     background: none;
     font-weight: 600;
     color:#210e03;
     border:1.5px solid #e5bf76;
     border-radius: 20px;
-    padding:1rem 2rem;
+    padding:1em 2em;
     z-index:1;
     transition:background-color 0.25s;
 }
 
 .productlist>button>span{
-    padding-right:3.5rem;
+    padding-right:3.5em;
 }
 
 .productlist button:hover, .productlist button:focus, .productlist button:active{
@@ -204,7 +204,7 @@ main{
     font-family: "Garamond", serif;
     margin:50px auto 80px auto;
     line-height: 2.25;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     text-align: justify;
 }
 
@@ -217,15 +217,15 @@ main{
     width:98%;
     margin:10px auto;
     color: #a68676;
-    letter-spacing: .11rem;
+    letter-spacing: .11em;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .allProducts>h4>span{
     font-weight: 100;
-    letter-spacing: .29rem;
-    font-size: .9rem;
+    letter-spacing: .29em;
+    font-size: .9em;
     color: #210e03;
 }
 
@@ -244,34 +244,34 @@ main{
 
 .listRow div p{
     font-family: "Garamond", serif;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     color: #210e03;
 }
 
 .listRow .addbtn2{
-    letter-spacing: .1rem;
-    font-size: .9rem;
+    letter-spacing: .1em;
+    font-size: .9em;
     text-transform: capitalize;
     background: none;
     font-weight: 600;
     color:#210e03;
     border:1.5px solid #e5bf76;
     border-radius: 20px;
-    padding:.9rem 1.5rem;
+    padding:.9em 1.5em;
     transition:background-color 0.25s;
 }
 
 .listRow .addbtn2 span{
-    padding-right:2.5rem;
+    padding-right:2.5em;
 }
 
 footer{
     background-color: #F7F5F0;
     width:100%;
-    margin: 10px auto;
+    margin: 12px auto;
     text-align: center;
     font-family: "Garamond", serif;
-    font-size:.8rem;
-    letter-spacing: .05rem;
+    font-size:.8em;
+    letter-spacing: .05em;
     color:#210e03;
 }
