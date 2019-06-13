@@ -171,7 +171,7 @@ main{
     z-index:1;
 }
 
-.productlist button{
+.productlist .addbtn1{
     position: absolute;
     top:35rem;
     left:42rem;
@@ -205,4 +205,17 @@ main{
     line-height: 2.25;
     font-size: .9rem;
     text-align: justify;
+}
+
+.listRow{
+    margin:auto;
+    height:auto;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    width:100%;
+}
+
+.listRow div img{
+    width:95%;
 }
